@@ -1,0 +1,150 @@
+.logo{
+   left: 34px; 
+   position: fixed;
+}
+
+.iniciohoy{
+   right: 230px;
+   position: relative;
+}
+
+.buscar{
+   width: 1020px; 
+}
+
+.iconos{
+   position: relative;
+   left: 280px;
+}
+
+
+.imagen1{
+   width: 200px;
+   height: 200px;
+   position: fixed;
+   left: 37px;
+   top: 100px;
+}
+
+.guardar{
+   top: 100px; 
+}
+
+.imagen2{
+   width: 200px;
+   height: 200px;
+   position: relative;
+   left: 200px; 
+   bottom: 176px   
+}
+
+.imagen3{
+   width: 200px;
+   height: 200px;
+   position: relative;
+   left: 200px; 
+   bottom: 176px  
+}
+ 
+.imagen4{
+   width: 200px;
+   height: 200px;
+   position: relative;
+   left: 200px; 
+   bottom: 176px   
+}
+
+.imagen5{
+   width: 200px;
+   height: 200px;
+   position: relative;
+   left: 200px; 
+   bottom: 176px   
+}
+
+.imagen6{
+   width: 200px;
+   height: 200px;
+   position: relative;
+   right: 1649px; 
+   top: 250px;  
+}
+
+.imagen7{
+   width: 200px;
+   height: 200px;
+   position: relative;
+   left: 200px; 
+   bottom: 175px;  
+}
+
+.imagen8{
+   width: 200px;
+   height: 200px;
+   position: relative;
+   left: 200px; 
+   bottom: 175px; 
+}
+
+.imagen9{
+   width: 200px;
+   height: 200px;
+   position: relative;
+   left: 200px; 
+   bottom: 175px;  
+}
+
+.imagen10{
+   width: 200px;
+   height: 200px;
+   position: relative;
+   left: 200px; 
+   bottom: 175px; 
+}  
+
+
+.single-team{
+   width: 360px;
+   height: 400px;
+   padding: 24px;
+   background: #fff;
+   position: relative;
+   display: flex;
+   align-items: flex-end;
+}
+
+.single-team:hover:before{
+   opacity: 1; 
+}
+
+.single-team:hover .team-text{
+   opacity: 1;  
+}
+
+.single-team:before{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: block;
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(to top, #000, transparent);
+   z-index: 1;
+   opacity: 0;  
+}
+
+.single-team img{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.single-team .team-text{
+   position: relative;
+   z-index: 1;
+   color: #fff;
+   opacity: 0;   
+}
